@@ -1,0 +1,15 @@
+{
+  "name": "schema",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.33.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.8",
+    "drizzle-kit": "^0.24.2"
+  }
+}
