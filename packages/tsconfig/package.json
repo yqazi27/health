@@ -6,7 +6,6 @@
     "fmt": "prettier --write --ignore-path .gitignore ."
   },
   "files": [
-    "base.json",
-    "nextjs.json"
+    "base.json"
   ]
 }

@@ -1,4 +1,5 @@
 {
+  "name": "health-app",
   "private": "true",
   "scripts": {
     "build": "turbo build",
