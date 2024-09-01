@@ -1,5 +1,5 @@
 {
-  "name": "schema",
+  "name": "db",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
