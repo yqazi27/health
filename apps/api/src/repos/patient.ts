@@ -1,18 +1,8 @@
 import { db } from "../db/db";
-import { patient } from "../db/schema";
-import { z } from "zod";
-
-// export type Patient = InferSelectModel<typeof patient>;
-
-export const Patient = z.object({
-  id: z.string(),
-  name: z.string().nullable(),
-});
-export type Patient = z.infer<typeof Patient>;
-
+import { Patient } from "../db/schema";
 export class PatientRepo {
   async get() {
-    const result = await db.select().from(patient);
+    const result = await db.select().from(Patient);
     const first = result[0];
     return first;
   }
