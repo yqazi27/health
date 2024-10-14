@@ -6,6 +6,7 @@ export default function RootLayout() {
     <TRPCReactProvider>
       <Stack>
         <Stack.Screen name="index" />
+        <Stack.Screen name="details" />
       </Stack>
     </TRPCReactProvider>
   );
