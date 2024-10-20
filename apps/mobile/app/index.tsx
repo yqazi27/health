@@ -9,6 +9,7 @@ export default function Index() {
     <View style={styles.container}>
       <Text>Edit app/index.tsx to edit this screen. {data?.message}</Text>
       <Link href="/details">View details</Link>
+      <Link href="/new_visit">New visit</Link>
     </View>
   );
 }
