@@ -1,6 +1,9 @@
 import { drizzle } from "drizzle-orm/node-postgres";
-import { Pool } from "pg";
-import * as schema from "./schema";
+import * as schema from "./schema.js";
+
+// Needs to be this way for ES Modules
+import pg from "pg";
+const { Pool } = pg;
 
 const pool = new Pool({
   host: "localhost",

@@ -6,9 +6,10 @@
     "rootDir": "./src",
     "composite": true,
     "skipLibCheck": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "allowSyntheticDefaultImports": true,
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true
   },
   "include": ["src"], // We might need to include the drizzle.config.ts
   "exclude": ["node_modules", "drizzle.config.ts"]
