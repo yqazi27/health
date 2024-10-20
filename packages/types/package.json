@@ -1,0 +1,17 @@
+{
+  "name": "types",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
